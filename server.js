@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 
 // Middleware to parse JSON requests
 app.use(express.json());
-app.use(express.urlencoded({ extended: true })); // To support URL-encoded bodies (like forms)
+app.use(express.urlencoded({ extended: true })); // To support URL-encoded bodies 
 
 // Database connection
 const database = mysql.createConnection({
