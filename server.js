@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true })); // To support URL-encoded bodie
 const database = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Aldito14', // Replace with your MySQL root password
+    password: 'Aldito14', 
     database: 'inventory_system'
 });
 
